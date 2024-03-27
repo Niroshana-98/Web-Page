@@ -10,14 +10,12 @@
     justify-content: space-between;
     align-items: center;
     margin-left: 50px;
-    margin-right: 50px;
-    
+    margin-right: 50px; 
+       
 }
 
-
 .right {
-    text-align: right;
-    
+    text-align: right;   
 }
 
 .right img {
@@ -40,7 +38,7 @@ a{
 .middle {
     display: flex;
     align-items: center;
-    justify-content: center;
+    //justify-content: center;
     //flex-direction: column;
 }
 input[type="text"] {
@@ -53,8 +51,7 @@ input[type="text"] {
     height:10px;
 }
 
-.tab {
-    
+.tab { 
     border: none;
     background-color: #6FAD75;
     width: 400px; 
@@ -84,7 +81,6 @@ input[type="text"] {
     cursor:pointer;
     width:150px;
     height:50px;
-
 }
 
 .Courses{
@@ -104,17 +100,22 @@ input[type="text"] {
     background-color: #ffffff;
     padding:20px 0px;   
 }
+
+
 .Content b{
     font-size:25px;
 }
-.choose{
-    width:500px;
-    margin-bottom: 20px;
+.middles {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
 }
-.p1{
-    display:block;
-    margin-bottom: 20px;
+.images{
+    display: flex;
+    justify-content: space-between;
 }
+
 
 
 
