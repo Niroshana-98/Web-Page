@@ -2,7 +2,8 @@
     background-color: #EAEAEA;
     padding: 6px;
     font-size:12px;
-    align-items: center;   
+    align-items: center;
+      
 }
 
 .margin {
@@ -11,6 +12,9 @@
     align-items: center;
     margin-left: 50px;
     margin-right: 50px; 
+    flex: 1;
+            //padding: 20px;
+            box-sizing: border-box;
        
 }
 
@@ -22,7 +26,7 @@
     margin-right: 5px;
 }
 
-a{
+.gray-Background a{
     color:black;
 }
 
@@ -38,6 +42,7 @@ a{
 .middle {
     display: flex;
     align-items: center;
+    //text-align: center;
     //justify-content: center;
     //flex-direction: column;
 }
@@ -46,7 +51,7 @@ input[type="text"] {
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 20px;
-    margin-left: 50px; 
+    margin-left: 20px; 
     width: 311px;
     height:10px;
 }
@@ -70,7 +75,7 @@ input[type="text"] {
 
 .apply{
     margin-left: auto;
-    padding: 20px;
+    padding: 30px;
 }
 .apply button{
     font-size:20px;
@@ -148,6 +153,74 @@ input[type="text"] {
     margin-right: 10px;
     font-size: 10px;
 }
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.footer-green{
+    height: 220px;
+    background-color: #215B4D;
+    padding: 6px;
+    font-size:12px; 
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    flex-wrap: wrap;
+}
+
+.list-Contact{
+    list-style-type: none; 
+    padding: 0; 
+}
+.list-Contact li i {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+.list-Contact a {
+    color: white; 
+}
+
+.Contact-Detail,
+        .Link-Content,
+        .Location,
+        .follow,
+        .about {
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .follow ul,
+        .about p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .follow ul li,
+        .about p {
+            list-style-type: none;
+            padding: 5px 0;
+        }
+
+        .margins {
+            display: flex;
+            justify-content: space-between;
+            //align-items: center;
+            margin-top:-20px;
+            margin-left: 50px;
+            margin-right: 50px; 
+            flex: 1;
+                    //padding: 20px;
+                    box-sizing: border-box;
+               
+        }
+
 
 
 
