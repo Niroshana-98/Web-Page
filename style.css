@@ -210,15 +210,21 @@ p {
 
         .margins {
             display: flex;
-            justify-content: space-between;
+            //justify-content: space-between;
             //align-items: center;
-            margin-top:-20px;
+            margin-top:0;
             margin-left: 50px;
             margin-right: 50px; 
-            flex: 1;
-                    //padding: 20px;
-                    box-sizing: border-box;
+            //flex: 1;
+            box-sizing: border-box;
                
+        }
+        .middles {
+            //display: flex;
+            //align-items: center;
+            //text-align: center;
+            //justify-content: center;
+            //flex-direction: column;
         }
 
 
