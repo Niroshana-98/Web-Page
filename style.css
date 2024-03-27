@@ -116,6 +116,39 @@ input[type="text"] {
     justify-content: space-between;
 }
 
+.Book-Button {
+    display: inline-block; 
+    margin-right: 20px; 
+    vertical-align: top; 
+}
+
+.Book-Button button {
+    display: inline-block; /* Display button as inline block */
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.Apply-Button button {
+    display: inline-block; /* Display button as inline block */
+    background-color: #8785E6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.subject{
+    list-style-type: none; 
+    padding: 0; 
+}
+.subject li i {
+    margin-right: 10px;
+    font-size: 10px;
+}
+
 
 
 
