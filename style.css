@@ -1,24 +1,33 @@
 .gray-Background {
-    background-color: #eaeaea;
-    padding: 5px;
-    font-size: 12px;
+    background-color: #EAEAEA;
+    padding: 6px;
+    font-size:12px;
+    align-items: center;   
 }
 
-.gray-Background,
-.right1 {
+.margin {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
-.right1 {
-    margin-left: auto; /* Push div to the right */
+.left {
+    text-align: left;
+    
 }
 
-.right1 img {
-    margin-right: 5px; /* Add space between images */
+.right {
+    text-align: right;
+    
 }
 
-a {
-    color: black;
+.right img {
+    margin-right: 5px;
+}
+
+a{
+    color:black;
 }
 
