@@ -31,3 +31,62 @@ a{
     color:black;
 }
 
+.green-Background {
+    height: 80px;
+    background-color: #6FAD75;
+    padding: 6px;
+    font-size:12px; 
+    display: flex;
+    justify-content: flex-start;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type="text"] {
+    background-color: #ffffff;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-left: 50px; 
+    width: 311px;
+    height:10px;
+}
+
+.tab {
+    
+    border: none;
+    background-color: #6FAD75;
+    width: 400px; 
+    padding:20px;
+}
+
+.tab button {
+    font-size:20px;
+    color:white;
+    background-color:#6FAD75 ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding:10px;
+}
+
+.apply{
+    margin-left: auto;
+    padding: 20px;
+}
+.apply button{
+    font-size:20px;
+    background-color:white;
+    border:none;
+    border-radius:10px;;
+    outline:none;
+    cursor:pointer;
+    width:150px;
+    height:50px;
+
+}
+
+
