@@ -164,9 +164,9 @@ p {
 }
 
 .footer-green{
-    height: 420px;
+    height: 220px;
     background-color: #215B4D;
-    padding: 6px;
+    //padding: 6px;
     font-size:12px; 
     display: flex;
     justify-content: space-between;
@@ -188,57 +188,66 @@ p {
 }
 
 .Contact-Detail,
-        .Link-Content,
-        .Location,
-        .follow,
-        .about {
-            border-radius: 5px;
-            padding: 10px;
-        }
+.Link-Content,
+.Location,
+.follow,
+.about {
+    border-radius: 1px;
+    padding: 1px;
+}
 
-        .follow ul,
-        .about p {
-            margin: 0;
-            padding: 0;
-        }
+.follow ul,
+.about p {
+    margin: 0;
+    padding: 0;
+}
 
-        .follow ul li,
-        .about p {
-            list-style-type: none;
-            padding: 5px 0;
-        }
+.follow ul li,
+.about p {
+    list-style-type: none;
+    padding: 5px 0;
+}
 
-        .margins {
-            display: flex;
-            justify-content: space-between;
-            //align-items: center;
-            margin-top:0;
-            margin-left: 50px;
-            margin-right: 50px; 
-            flex: 1;
-            box-sizing: border-box;
-               
-        }
-        .middles {
-            //display: flex;
-            //align-items: center;
-            //text-align: center;
-            //justify-content: center;
-            //flex-direction: column;
-        }
-
-        .about {
-            text-align: justify;
-        }
-
-        .Location img {
-            width: 176px; 
-            height: 92px; 
-            display: block;  
-        }
+.margins {
+    display: flex;
+    justify-content: space-between;
+    //align-items: center;
+    margin-top:0;
+    margin-left: 50px;
+    margin-right: 50px; 
+    flex: 1;
+    box-sizing: border-box;        
+}
 
 
+.about {
+    text-align: justify;
+}
 
+.Location img {
+    width: 176px; 
+    height: 92px; 
+    //display: block;  
+}
+.home-Link{
+    list-style-type:none;
+    padding:0px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.social{
+    font-weight: bold;
+    font-size:14px;
+}
+.social li i {
+    margin-right: 10px;
+    font-size: 12px;
+}
+.social a {
+    color: white; 
+}
 
-
-
+.about{
+    margin-left:-80px ; 
+    padding: 0;
+}
