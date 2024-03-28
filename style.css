@@ -76,6 +76,7 @@ input[type="text"] {
 .apply{
     margin-left: 80px;
     padding: 30px;
+    text-align: right;
 }
 .apply button{
     font-size:20px;
