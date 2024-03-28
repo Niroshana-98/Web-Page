@@ -13,8 +13,8 @@
     margin-left: 50px;
     margin-right: 50px; 
     flex: 1;
-            //padding: 20px;
-            box-sizing: border-box;
+    //padding: 20px;
+    box-sizing: border-box;
        
 }
 
@@ -128,7 +128,7 @@ input[type="text"] {
 }
 
 .Book-Button button {
-    display: inline-block; /* Display button as inline block */
+    display: inline-block; 
     background-color: #000000;
     color: #fff;
     padding: 10px 20px;
@@ -137,7 +137,7 @@ input[type="text"] {
     cursor: pointer;
 }
 .Apply-Button button {
-    display: inline-block; /* Display button as inline block */
+    display: inline-block; 
     background-color: #8785E6;
     color: #fff;
     padding: 10px 20px;
@@ -147,15 +147,15 @@ input[type="text"] {
 }
 .circular-button {
     display: inline-block;
-    width: 70px; /* Set the width of the circular button */
-    height: 70px; /* Set the height of the circular button */
-    border-radius: 50%; /* Make the button circular */
-    background-color: #D9D9D9; /* Set background color */
-    color: black; /* Set text color */
+    width: 70px; 
+    height: 70px;
+    border-radius: 50%; 
+    background-color: #D9D9D9; 
+    color: black;
     text-align: center;
-    line-height: 70px; /* Center the text vertically */
-    text-decoration: none; /* Remove underline from links */
-    margin-left: 600px; /* Add right margin */
+    line-height: 70px; 
+    text-decoration: none; 
+    margin-left: 600px;
 }
 .subject{
     list-style-type: none; 
