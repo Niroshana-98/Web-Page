@@ -1,9 +1,8 @@
+/* Header-Details */
 .gray-Background {
     background-color: #EAEAEA;
     padding: 6px;
-    font-size:12px;
-    align-items: center;
-      
+    font-size:12px;    
 }
 
 .margin {
@@ -13,23 +12,36 @@
     margin-left: 50px;
     margin-right: 50px; 
     flex: 1;
-    //padding: 20px;
-    box-sizing: border-box;
-       
+    box-sizing: border-box;       
 }
 
 .right {
-    text-align: right;   
+    display: flex;
+    align-items: center;   
 }
 
 .right img {
     margin-right: 5px;
 }
 
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.content-1 {
+    display: flex;
+    align-items: center;
+}
+
 .gray-Background a{
     color:black;
 }
 
+
+/* Menu-Bar */
 .green-Background {
     height: 80px;
     background-color: #6FAD75;
@@ -42,17 +54,17 @@
 .middle {
     display: flex;
     align-items: center;
+    width:100%
     //text-align: center;
-    //justify-content: center;
-    //flex-direction: column;
 }
+
 input[type="text"] {
     background-color: #ffffff;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 20px;
     margin-left: 20px; 
-    width: 311px;
+    width: 400px;
     height:10px;
 }
 
@@ -74,10 +86,9 @@ input[type="text"] {
 }
 
 .apply{
-    margin-left: 80px;
-    padding: 30px;
-    text-align: right;
+    float: right;
 }
+
 .apply button{
     font-size:20px;
     background-color:white;
@@ -87,8 +98,11 @@ input[type="text"] {
     cursor:pointer;
     width:150px;
     height:50px;
+    float:right;    
 }
 
+
+/* Course - Tab */
 .Courses{
     height: 60px;
     background-color: #D9D9D9;
@@ -97,31 +111,83 @@ input[type="text"] {
     display: flex;
     justify-content: flex-start;
 }
+
 .Courses b{
     font-size:30px;
 }
 
+
+/* Course - Details */
 .Content{
-    height: 120px;
+    height: 60px;
     background-color: #ffffff;
     padding:20px 0px;   
 }
 
-
 .Content b{
     font-size:25px;
 }
+
+.margin-1 {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px; 
+    flex: 1;
+    box-sizing: border-box;       
+}
+
 .middles {
     display: flex;
     align-items: left;
     justify-content: center;
     flex-direction: column;
+   // margin-top: 20px;
 }
+
+.choose, .p1 {
+    margin: 0;
+}
+
+/* Image - Details */
 .images{
     display: flex;
     justify-content: space-between;
 }
 
+.margin-2 {
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px; 
+    flex: 1;
+    box-sizing: border-box;       
+}
+
+img, h3 {
+    margin: 3px;
+    padding: 0;
+}
+
+.subject{
+    list-style-type: none; 
+    padding: 0; 
+}
+.subject li i {
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+
+/* Button- Details */
 .Book-Button {
     display: inline-block; 
     margin-right: 20px; 
@@ -158,28 +224,12 @@ input[type="text"] {
     text-decoration: none; 
     margin-left: 600px;
 }
-.subject{
-    list-style-type: none; 
-    padding: 0; 
-}
-.subject li i {
-    margin-right: 10px;
-    font-size: 10px;
-}
 
-h2 {
-    margin-top: 20px;
-    margin-bottom: 0;
-}
 
-p {
-    margin-bottom: 0;
-}
-
+/* Green-Footer */
 .footer-green{
     height: 220px;
     background-color: #215B4D;
-    //padding: 6px;
     font-size:12px; 
     display: flex;
     justify-content: space-between;
@@ -224,8 +274,7 @@ p {
 .margins {
     display: flex;
     justify-content: space-between;
-    //align-items: center;
-    margin-top:0;
+    margin-top:10px;
     margin-left: 50px;
     margin-right: 50px; 
     flex: 1;
@@ -240,7 +289,6 @@ p {
 .Location img {
     width: 176px; 
     height: 92px; 
-    //display: block;  
 }
 .home-Link{
     list-style-type:none;
