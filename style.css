@@ -74,7 +74,7 @@ input[type="text"] {
 }
 
 .apply{
-    margin-left: auto;
+    margin-left: 80px;
     padding: 30px;
 }
 .apply button{
@@ -89,7 +89,7 @@ input[type="text"] {
 }
 
 .Courses{
-    height: 120px;
+    height: 60px;
     background-color: #D9D9D9;
     padding: 6px;
     font-size:12px; 
@@ -144,6 +144,18 @@ input[type="text"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+.circular-button {
+    display: inline-block;
+    width: 70px; /* Set the width of the circular button */
+    height: 70px; /* Set the height of the circular button */
+    border-radius: 50%; /* Make the button circular */
+    background-color: #D9D9D9; /* Set background color */
+    color: black; /* Set text color */
+    text-align: center;
+    line-height: 70px; /* Center the text vertically */
+    text-decoration: none; /* Remove underline from links */
+    margin-left: 600px; /* Add right margin */
 }
 .subject{
     list-style-type: none; 
@@ -235,6 +247,11 @@ p {
     font-weight: bold;
     font-size: 12px;
 }
+.home-Link a{
+    color:white;
+    text-decoration: none;
+    transition: text-decoration 0.3s;
+}
 .social{
     font-weight: bold;
     font-size:14px;
@@ -245,9 +262,45 @@ p {
 }
 .social a {
     color: white; 
+    text-decoration: none;
+    transition: text-decoration 0.3s; 
+}
+.social a:hover {
+    text-decoration: underline; 
+    border-color: red;
 }
 
 .about{
     margin-left:-80px ; 
     padding: 0;
+}
+
+.footer{
+    height:100px;
+    background-color:#EAEAEA;
+    text-align: center;
+    isplay: flex;
+    justify-content: flex-start;
+    
+}
+.footer a {
+    margin: 0 10px; 
+    text-decoration: none;
+    transition: text-decoration 0.3s; 
+    color:black;
+}
+.footer a:hover {
+    text-decoration: underline; 
+}
+.margin1 {
+    display: flex; 
+    justify-content: center; 
+    
+}
+.middle1 {
+    font-weight:bold;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column; 
+    align-items: center;
 }
