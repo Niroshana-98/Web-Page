@@ -164,7 +164,7 @@ p {
 }
 
 .footer-green{
-    height: 220px;
+    height: 420px;
     background-color: #215B4D;
     padding: 6px;
     font-size:12px; 
@@ -210,12 +210,12 @@ p {
 
         .margins {
             display: flex;
-            //justify-content: space-between;
+            justify-content: space-between;
             //align-items: center;
             margin-top:0;
             margin-left: 50px;
             margin-right: 50px; 
-            //flex: 1;
+            flex: 1;
             box-sizing: border-box;
                
         }
@@ -225,6 +225,16 @@ p {
             //text-align: center;
             //justify-content: center;
             //flex-direction: column;
+        }
+
+        .about {
+            text-align: justify;
+        }
+
+        .Location img {
+            width: 176px; 
+            height: 92px; 
+            display: block;  
         }
 
 
