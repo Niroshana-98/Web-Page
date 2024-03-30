@@ -138,7 +138,7 @@ input[type="text"] {
 }
 
 .middles {
-    display: flex;
+    //display: flex;
     align-items: left;
     justify-content: center;
     flex-direction: column;
@@ -325,7 +325,7 @@ p {
 }
 
 .footer{
-    height:100px;
+    height:120px;
     background-color:#EAEAEA;
     text-align: center;
     isplay: flex;
